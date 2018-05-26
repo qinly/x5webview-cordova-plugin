@@ -2,7 +2,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="x5webview-cordova-plugin"
-        version="1.1.0">
+        version="1.1.2">
 
     <name>x5engine WebView Engine</name>
     <description>use x5webview for cordova to get a better webview browsing experience</description>
@@ -10,21 +10,21 @@
     <keywords>x5webview,webview,chromium,cordova</keywords>
 
     <engines>
-        <engine name="cordova-android" version=">=4"/>
+        <engine name="cordova-android" version=">=6.3.0"/>
         <engine name="cordova-plugman" version=">=5.2.0"/><!-- needed for gradleReference support -->
     </engines>
 
     <!-- android -->
     <platform name="android">
 
-        <config-file target="app/src/main/res/xml/config.xml" parent="/*">
+        <config-file target="res/xml/config.xml" parent="/*">
             <preference name="webView" value="org.apache.cordova.x5engine.X5WebViewEngine"/>
             <preference name="appUserAgent" value="x5webview"/>
             <preference name="android-minSdkVersion" value="15" />
 	          <allow-navigation href="*"></allow-navigation>
         </config-file>
 
-        <config-file target="app/src/main/AndroidManifest.xml" parent="/*">
+        <config-file target="AndroidManifest.xml" parent="/*">
             <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
             <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
             <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />

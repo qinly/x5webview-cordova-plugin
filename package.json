@@ -1,7 +1,7 @@
 {
   "name": "x5webview-cordova-plugin",
   "version": "1.1.1",
-  "description": "Changes the default WebView to x5engine",
+  "description": "测试",
   "cordova": {
     "id": "x5webview-cordova-plugin",
     "platforms": [
@@ -10,30 +10,16 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/runner525/x5webview-cordova-plugin.git"
+    "url": "git+https://github.com/qinly/x5webview-cordova-plugin.git"
   },
   "keywords": [
-    "cordova",
-    "chromium",
-    "x5engine",
-    "webview",
     "ecosystem:cordova",
     "cordova-android"
   ],
-  "engines": [
-    {
-      "name": "cordova-android",
-      "version": ">=4"
-    },
-    {
-      "name": "cordova-plugman",
-      "version": ">=5.2.0"
-    }
-  ],
-  "author": "lz",
-  "license": "Apache 2.0",
+  "author": "x5",
+  "license": "MIT",
   "bugs": {
-    "url": "https://github.com/runner525/x5webview-cordova-plugin/issues"
+    "url": "https://github.com/qinly/x5webview-cordova-plugin/issues"
   },
-  "homepage": "https://github.com/runner525/x5webview-cordova-plugin#readme"
+  "homepage": "https://github.com/qinly/x5webview-cordova-plugin#readme"
 }
